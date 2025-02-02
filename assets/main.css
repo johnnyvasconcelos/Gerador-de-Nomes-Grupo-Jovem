@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    overflow-x: hidden;
+    height: 100vh;
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    padding: 0 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#background {
+    background-image: url('../assets/images/background-desktop.webp')!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article {
+    background-color: aliceblue;
+    max-width: 650px;
+    width: 100%;
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+article::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 102%;
+    height: 105%;
+    opacity: 0.7;
+    border: 3px dashed #e6b800;
+    border-radius: 25px;
+    z-index: -1!important;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    font-size: 16px;
+    color: #777;
+}
+
+.versiculo {
+    font-style: italic;
+    color: #555;
+    font-size: 18px;
+    margin: 30px auto 30px auto;
+}
+
+.nome {
+    font-size: 32px;
+    font-weight: 900;
+    color: #a502ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
+.img {
+    width: 20px;
+    cursor: pointer;
+}
+
+button.gerar {
+    background: #f4c430; /* Amarelo dourado */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s ease;
+    margin: 0 auto;
+}
+
+button.gerar:hover {
+    background: #e6b800;
+    transform: scale(104%);
+}
+
+button.gerar img {
+    width: 20px;
+}
+
+.bird {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    top: -120px;
+    z-index: -2!important;
+}
+.copiado {
+    color: white;
+    background-color: #02ae75;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: translateY(80px);
+    transition: 0.4s;
+    opacity: 0;
+    width: 100%;
+}
+
+.copiado.show {
+    opacity: 1!important;
+    transform: translateY(0)!important;
+}
+
+@media (max-width: 990px) {
+    #background {
+        background-image: url('../assets/images/background.webp')!important;
+    }
+}
