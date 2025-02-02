@@ -7,6 +7,7 @@ const versiculos = {
     'Gideões': 'Juízes 6.12: Então o anjo do Senhor lhe apareceu e lhe disse: O Senhor é contigo, homem valente.',
     'Valente(s)': 'Juízes 6.12: Então o anjo do Senhor lhe apareceu e lhe disse: O Senhor é contigo, homem valente.',
     'Aviva': 'Habacuque 3:2: Ouvi, Senhor, a tua palavra e temi; aviva, ó Senhor, a tua obra no meio dos anos, no meio dos anos a notifica; na ira lembra-te da misericórdia.',
+    'Jovens de Valor': '1 Timóteo 4:12: “Ninguém despreze a tua mocidade; mas sê um exemplo dos fiéis, na palavra, no procedimento, no amor, no espírito, na fé, na pureza.”',
     'Sal da Terra': '“Mateus 5:13: “Vós sois o sal da terra; e se o sal for insípido, com que se há de salgar? Para nada mais presta senão para se lançar fora, e ser pisado pelos homens.”',
     'Deus é Luz': '1 João 1:5: “Ora, a mensagem que, da parte dele, temos ouvido e vos anunciamos é esta: que Deus é luz, e não há nele treva nenhuma.”',
     'Arca da Aliança': 'Hebreus 9:4: “Que tinha o incensário de ouro, e a arca da aliança, coberta de ouro toda em redor; em que estava um vaso de ouro, que continha o maná, e a vara de Arão, que tinha florescido, e as tábuas da aliança.”',
